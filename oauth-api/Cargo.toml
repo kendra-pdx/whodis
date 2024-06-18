@@ -1,0 +1,6 @@
+[package]
+name = "oauth-api"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
