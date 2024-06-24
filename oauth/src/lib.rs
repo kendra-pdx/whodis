@@ -1,14 +1,4 @@
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
-}
+pub mod account;
+pub mod user;
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
-}
+type UtcDateTime = chrono::DateTime<chrono::Utc>;
